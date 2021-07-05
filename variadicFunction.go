@@ -9,4 +9,5 @@ func main() {
 func variadicExample(d ...string){
 	fmt.Println(d[1])
 	fmt.Println(d[3])
+	fmt.Println("display all the elements:",d)
 }
